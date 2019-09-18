@@ -1,4 +1,4 @@
-\version "2.19.83"
+%\version "2.19.83"
 %\include "lilypond-book-preamble.ly"
 %Función para generar líneas de pentagrama con colores
 #(define-public ((color-staff-lines . rest) grob)
@@ -213,7 +213,7 @@ claveDeSolEnSegunda = {
 }
 \paper {
   indent = 0\mm
-  line-width = #(- line-width (* mm  3.000000) (* mm 1))
+  %line-width = #(- line-width (* mm  3.000000) (* mm 1))
 }
 \score {
   \new Staff {
