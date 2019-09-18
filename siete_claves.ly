@@ -1,5 +1,5 @@
 \version "2.19.83"
-\include "lilypond-book-preamble.ly"
+%\include "lilypond-book-preamble.ly"
 %Función para generar líneas de pentagrama con colores
 #(define-public ((color-staff-lines . rest) grob)
 
@@ -245,4 +245,5 @@ claveDeSolEnSegunda = {
       \remove "Bar_number_engraver"
     }
   }
+  \midi{}
 }
